@@ -8,5 +8,5 @@ api is C++ header that can generate 'text to speech' and QR-Code in an easy way
 * to generate gui tts use : guitts(here type your fav rate number);
 * to generate normal tts use : tts("here type your text", here type rate number, here type volume number);
 # WARNING :
-tts & QR-Code feature work well in windows XP and above
+tts & QR-Code feature work well in windows XP and above , 
 QR-Code & tts feature It may run into some problems in linux
