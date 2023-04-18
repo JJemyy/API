@@ -1,0 +1,34 @@
+1)include header component:
+***************************
+
+#include "api.hpp"
+
+or
+
+#include <api.hpp> //if api file in Compiler include folder
+-----------------------
+2)use header component:
+***********************
+
+using namespace api;
+
+or
+
+api::qr();
+api::guitts();
+api::tts();
+-----------------------
+3)how to use component:
+***********************
+.Generate QR-Code:
+
+	type : qr("Here type your data or text");
+
+.Text To Speech:
+	
+	type : guitts(10);  ==> change this number by your fav sound rate
+
+	type : tts("text",10,100); ==> argument1:string(text) , arg2: int(rate) , arg3: int(volume)
+
+-------------------------------------
+Written in C++ by momen jamal "JJemy"
